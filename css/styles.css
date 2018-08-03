@@ -1,0 +1,80 @@
+
+/*Ecommerce styles bhargava css start*/
+
+/*content under slideshow*/
+.content{
+    position: relative;
+}
+.context{
+    top: 100%;
+    z-index: 9;
+    left: 0;
+    background: #0B8AE3;
+    width: 100%;
+    padding: 48px;
+    text-align: center;
+    
+}
+.contexts{
+    z-index: 9;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 43px;
+    font-size: 1.2rem;
+}
+
+/*gallery style*/
+.gallery{
+    background-color: #D6EAF8;
+}
+header{
+    font-size: 37px;
+    padding-bottom: 50px;
+}
+.imge{
+    max-width: 100%;
+    padding-top: 0px;
+   
+}
+.pics{
+    max-width: 100%;
+}
+/*image text*/
+
+.centered {
+    position: absolute;
+    top: 44%;
+    font-size: 1.2rem;
+    /* left: 35%; */
+    text-align: center;
+    color: #FFF;
+    z-index: 2;
+    width: 100%;
+}
+
+
+
+.digioverlay{
+    position: relative;
+}
+
+/*banner*/
+
+.d2{
+    background: #076DB4;
+    position: relative;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media (max-width:320px){
+    .carousel-item{
+     height: auto;
+    }
+}
+
+
+/*Ecommerce styles bhargava css end*/
